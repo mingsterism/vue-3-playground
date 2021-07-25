@@ -5,7 +5,7 @@
       border: '4px solid yellow',
     }"
   >
-    <h2 :style="{color: 'yellow'}">Component E</h2>
+    <h2 :style="{ color: 'yellow' }">Component E</h2>
     <span v-for="(block, index) in content.body" :key="index">
       <component :is="block.component" :block="block"></component>
     </span>
@@ -13,8 +13,8 @@
 </template>
 
 <script>
+// not used for now
 import ComponentF from "./ComponentF.vue";
-import ComponentProxy from "./ProxyComponent.vue";
 import ComponentG from "./ComponentG.vue";
 import Foo from "./Foo.vue";
 import Bar from "./Bar.vue";
@@ -34,7 +34,6 @@ export default {
   components: {
     ComponentF,
     ComponentG,
-    ComponentProxy,
     Foo,
     Bar,
   },
