@@ -1,3 +1,8 @@
+# how to use
+1. Go to ComponentE.vue
+2. notice that ComponentE is importing json array of components and dynamically rendering it.
+
+
 # Vue 3 + Typescript + Vite
 
 This template should help get you started developing with Vue 3 and Typescript in Vite.
