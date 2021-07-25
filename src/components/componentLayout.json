@@ -1,0 +1,19 @@
+[
+	{
+		"_uid": "X1JAfdsZxy",
+		"component": "bar",
+		"headline": "Another headline",
+		"title": "DDDDDDDDDDDDD"
+	},
+	{
+		"_uid": "BUY6Drn9e1",
+		"component": "foo",
+		"headline": "Foooooooooo"
+	},
+	{
+		"_uid": "gJZoSLkfZV",
+		"component": "ComponentG",
+		"title": "Bar",
+		"name": "Nenny"
+	}
+]
